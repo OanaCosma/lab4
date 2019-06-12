@@ -72,12 +72,17 @@ public class Main {
         return meters;
     }
 
-    int main()
-    {
-        String text("FastTrackIt");
-        String text2("FastTrackIt");
-        compareOperation(String text, String text2);
+    public static void main (String[] args {
 
-        return  Learning text comparision;
-        return Go try some more;
+        Print nameComparison2 = new Print();
+        nameComparison2.nameComparison2(fasTrackIt:"fastTrackIt");
+
+
+
+        Print nameText = new Print();
+        nameText.nameAndText( fastTrackIt: "fastTrackIt", 3);
+
+
+
+
     }

@@ -12,15 +12,34 @@ public class LogicalOp {
     }
 
 
-        public static void main(String[] args) {
+        public String nameComparison(String fastTrackIt) {
+            String text = fastTrackIt;
+            text = "fastTrackIt”;
 
-            String first = “FastTrackIt”;
-            String second = “FastTrackIt”;
-            if (first.equals(second)) {
-                System.out.println(“Learning text comparision !”);
-            } else if (!first.equals(second)) {
-                System.out.println(“Go try some more”);
+            if (fastTrackIt.equals(text)) {
+                System.out.println("Learning text comparison!");
+            } else if (!fastTrackIt.equals(text)) {
+                System.out.println("Go try some more”);
+                return fastTrackIt;
 
             }
+        }
+
+        public String nameAndText(String fastTrackIt, int a) {
+        String text = fastTrackIt;
+        text = 'fastTrackIt';
+        String text = number;
+
+        if
+        (fastTrackIt.equals(text)) {
+            System.out.println("text + a");
+        }  else if (a <= 3);
+
+        else if (fastTrackIt.equals(text)) {
+            System.out.println(fastTrackIt + a);
+            else if (a >= 4) ;
+            return fastTrackIt;
+        }
+
         }
 }
