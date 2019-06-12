@@ -15,7 +15,7 @@ public class Main {
         int bucket = sum(2, 3);
         System.out.println(bucket);
 
-        int pub = multiplication(4, 5);
+        int pub = multiply(4, 5);
         System.out.println(pub);
     }
 
@@ -34,7 +34,7 @@ public class Main {
     }
 
 
-    public static int multiplication(int firstNumber, int secondNumber) {
+    public static int multiply (int firstNumber, int secondNumber) {
         int result = firstNumber * secondNumber;
         return result;
     }
@@ -44,11 +44,17 @@ public class Main {
         return result;
     }
 
-    public static int  divide ( int firstNumber, int secondNumber) {
+    public static int  division ( int firstNumber, int secondNumber) {
         int result = firstNumber / secondNumber;
         return result;
     }
 
+    public static void printModel() {
+    System.out.println("    J   a    v     v  a");
+    System.out.println("    J  a a    v   v  a a");
+    System.out.println(" J  J aaaaa    V V  aaaaa");
+    System.out.println("  JJ a     a    v  a     a");
+}
 
 }
 
