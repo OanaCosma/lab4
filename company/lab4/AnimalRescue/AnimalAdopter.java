@@ -1,4 +1,4 @@
-package com.company.lab2.AnimalRescue;
+package lab4.AnimalRescue;
 
 public class AnimalAdopter {
     float money = 150;

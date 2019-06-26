@@ -1,4 +1,4 @@
-package com.company.lab3.AnimalRescue;
+package lab4.AnimalRescue;
 
 public class Dog {
     // atributele clasei
